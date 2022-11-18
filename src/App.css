@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+.center_div{
+  width: 100%;
+  height: 120vh;
+  background-color: #041C32;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+h1{
+  color: #041C32;
+  background: transparent;
+  background-color: #EB6440;
+  padding: 6px 0 2px 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+input{
+  top: 10px;
+  width: 65%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background: transparent;
+  background-color: transparent;
+  border-bottom: 2px solid #EB6440;
+  outline: none;
+}
+button{
+  min-height: 20px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color:#EB6440;
+  color: #fff;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+  background-color: #7BC74D;
+  cursor: pointer;
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #f4f4f4;
+  text-transform: capitalize;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF1E00;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  background-image: url("https://img.icons8.com/ios-glyphs/30/null/multiply.png");
+  background-size: contain;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-times:hover{
+  cursor: pointer;
+}
+.last_style{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  background-color: #041C32;
+}
+.last_style p{
+  font-size: 15px;
+  background-color: #041C32;
+  margin-bottom: 20px;
+}
+span{
+  color: #EB6440;
+}
+#gg{
+  font-size: 13px;
+}
